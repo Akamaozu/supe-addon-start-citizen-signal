@@ -1,6 +1,6 @@
 {
   "name": "supe-addon-start-citizen-signal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Supe Addon: Supervisors can start registered citizens via signal",
   "main": "index.js",
   "scripts": {
