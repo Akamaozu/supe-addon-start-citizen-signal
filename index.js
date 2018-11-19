@@ -1,5 +1,5 @@
 module.exports = function( supervisor, signal_to_watch ){
-  if( ! signal_to_watch !! typeof signal_to_watch != 'string' ) signal_to_watch = 'START-CITIZEN';
+  if( ! signal_to_watch || typeof signal_to_watch != 'string' ) signal_to_watch = 'START-CITIZEN';
 
   supervisor.noticeboard.watch( 'citizen-signal', signal_to_watch, function( msg ){
 
